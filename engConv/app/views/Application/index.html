@@ -1,4 +1,23 @@
 #{extends 'main.html' /}
 #{set title:'Home' /}
 
-#{welcome /}
+<div class="row">
+
+    <div class="rol-md-8">
+<h2>添加Word</h2>
+    #{form @addWords(), enctype:'multipart/form-data'}
+        <input type="file" id="csv" name="csv"/>
+        <input type="submit" class="btn btn-default" value="上传并添加">
+    #{/}
+    </div>
+    <div class="rol-md-8">
+        <h2>添加Problem</h2>
+    #{form @addProblems(), enctype:'multipart/form-data'}
+        <input type="file" id="csv" name="csv"/>
+        <input type="submit" class="btn btn-default" value="上传并添加">
+    #{/}
+    </div>
+</div>
+
+
+

@@ -1,55 +1,24 @@
 package models;
 
-import org.hibernate.annotations.GenericGenerator;
-import play.db.jpa.GenericModel;
-import play.db.jpa.Model;
-
-import javax.persistence.*;
-import java.util.ArrayList;
-import java.util.List;
+import com.google.code.morphia.annotations.Entity;
+import play.modules.morphia.Model;
 
 /**
- * unit_id：4      //<int> 所属单元id
+ * id：“000ewjkr000192w” //一个属于单词的随机生成的uid
  * spelling：“name”        //<string> 拼写
  * meaning：“n. 名字”      //<string> 中文意思
- * image：“img/name.jpg”      //我们还在讨论本地文件管理的方案，可以先把这里理解为一个可以直接读取的相对file_path
+ * unit_id：U4      //<int> 所属单元id
+ * image：“img/name.jpg”      //一个可以直接读取的相对file_path
  * audio： “word/name.mp3”     //发音文件
  * phonetics：“neim”      //<string> 音标
+ * group：1      //<int> 在单元中的分组
  * proficiency_step：10      //<int> 每次做对增长的基础熟练度
- * examples [     //例句们
- * {
- * body      //<html> 包含三个tag，例句文本(text)，例句发音(audio)，例句中文意思(translation)
- * <audio src='sentence/name.mp3'></audio>
- * <p>What is your name?</p>
- * <p>你叫什么名字？</p>
- * }
- * ]
- * pronunciation [
- * （包括单词的拆分、音标的拆分、以及每部分的发音，现在是怎么在json里存的？下面这种方式可以吗？或者把单词拆分，音标拆分和发音拆分各存成一个list？）
- * {
- * word_part：[“na”]
- * phonetics_part：[“nei”]
- * audio_part：“<audio src='phonetics/nei_f.mp3'></audio>”
- * },
- * {
- * word_part：[“me”]
- * phonetics_part：[“m”]
- * audio_part：“<audio src='phonetics/m.mp3'></audio>”
- * }
- * ]
- * }
+ * example：“What's your name?” //<string>例句
+ * example_meaning：“你叫什么名字?” //<string>例句翻译
  */
 @Entity
-public class Word extends GenericModel {
+public class Word extends Model {
 
-    @Id
-    @GeneratedValue(generator = "system-uuid")
-    @GenericGenerator(name = "system-uuid", strategy = "uuid")
-    public String id;
-    /**
-     * <int> 所属单元id
-     */
-    public String unit_id;
     /**
      * <string> 拼写
      */
@@ -58,6 +27,14 @@ public class Word extends GenericModel {
      * 中文意思
      */
     public String meaning;
+    /**
+     * 由spelling和unit_id共同确定的id
+     */
+    public String composite_id;
+    /**
+     * <int> 所属单元id
+     */
+    public String unit_id;
     /**
      * 我们还在讨论本地文件管理的方案，可以先把这里理解为一个可以直接读取的相对file_path
      */
@@ -71,33 +48,50 @@ public class Word extends GenericModel {
      */
     public String phonetics;
     /**
+     * <int> 单元内的分组
+     */
+    public int group;
+    /**
      * <int> 每次做对增长的基础熟练度
      */
     public int proficiency_step;
     /**
-     * 例句们
+     * <string> 例句
      */
-    @OneToMany
-    public List<WordExample> examples = new ArrayList<WordExample>();
-    @OneToMany
-    public List<WordPronunciation> pronunciations = new ArrayList<WordPronunciation>();
+    public String example;
+    /**
+     * <string> 例句翻译
+     */
+    public String example_meaning;
 
-    public Word(String spelling, String meaning) {
+    public Word(String spelling, String unit_id) {
         this.spelling = spelling;
-        this.meaning = meaning;
+        this.unit_id = unit_id;
+        this.composite_id = getWordId(spelling, unit_id);
     }
 
-    @Entity
-    public static class WordExample extends Model {
+    public static String getWordId(String spelling, String unit_id) {
+        return spelling + ":" + unit_id;
+    }
+
+    public static Word createIfNotExists(String spelling, String unit_id) {
+        Word word = Word.q("composite_id", Word.getWordId(spelling, unit_id)).first();
+        if (word == null) {
+            word = new Word(spelling, unit_id);
+        }
+        return word;
+    }
+
+    public String toString() {
+        return composite_id;
+    }
+
+    public static class WordExample {
         public String body;
+
+        public WordExample(String body) {
+            this.body = body;
+        }
     }
 
-    @Entity
-    public static class WordPronunciation extends Model {
-        @ElementCollection
-        public List<String> word_part = new ArrayList<String>();
-        @ElementCollection
-        public List<String> phonetics_part = new ArrayList<String>();
-        public String audio_part;
-    }
 }

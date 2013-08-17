@@ -1,13 +1,9 @@
 package models;
 
-import org.hibernate.annotations.GenericGenerator;
-import play.db.jpa.GenericModel;
-import play.db.jpa.Model;
+import com.google.code.morphia.annotations.Embedded;
+import com.google.code.morphia.annotations.Entity;
+import play.modules.morphia.Model;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.Id;
-import javax.persistence.OneToMany;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -42,11 +38,7 @@ import java.util.List;
  * hint：“What’s your name?”      //<html> 提示，可能没有
  */
 @Entity
-public class Problem extends GenericModel {
-    @Id
-    @GeneratedValue(generator = "system-uuid")
-    @GenericGenerator(name = "system-uuid", strategy = "uuid")
-    public String id;
+public class Problem extends Model {
     /**
      * <html> 题目
      */
@@ -58,7 +50,7 @@ public class Problem extends GenericModel {
     /**
      * <int> 是关于哪个单词的（或者没有，即不关联任何单词）
      */
-    public String word_id;
+    public String word_composite_id;
     /**
      * <string> 复习还是练习（"practice"用于练习, "review"用于复习或挑战, "both"都行）
      */
@@ -70,7 +62,7 @@ public class Problem extends GenericModel {
     /**
      * 选择题的选项
      */
-    @OneToMany()
+    @Embedded
     public List<ProblemChoice> choices = new ArrayList<ProblemChoice>();
     /**
      * <html> 题目解释（如果做错了会解释），可能没有
@@ -81,12 +73,15 @@ public class Problem extends GenericModel {
      */
     public String hint;
 
-    @Entity
-    public static class ProblemChoice extends GenericModel {
-        @Id
-        @GeneratedValue(generator = "system-uuid")
-        @GenericGenerator(name = "system-uuid", strategy = "uuid")
-        public String id;
+    public String audio;
+    public String image;
+
+
+    public String toString() {
+        return word_composite_id;
+    }
+
+    public static class ProblemChoice {
 
         public String body;
         public boolean is_answer;

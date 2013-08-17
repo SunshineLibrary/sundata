@@ -3,6 +3,7 @@
 # ~~~~
 
 # Home page
+*     /admin                                  module:crud
 *     /                                       Application.index
 
 # Ignore favicon requests
