@@ -39,6 +39,11 @@ import java.util.List;
  */
 @Entity
 public class Problem extends Model {
+
+    public String spelling;
+
+    public String unit_id;
+
     /**
      * <html> 题目
      */
@@ -63,7 +68,7 @@ public class Problem extends Model {
      * 选择题的选项
      */
     @Embedded
-    public List<ProblemChoice> choices = new ArrayList<ProblemChoice>();
+    public List<ProblemChoice> choices;
     /**
      * <html> 题目解释（如果做错了会解释），可能没有
      */
@@ -73,9 +78,14 @@ public class Problem extends Model {
      */
     public String hint;
 
+    public String use;
+
+    public String answer;
+
     public String audio;
     public String image;
 
+    public int profieciency;
 
     public String toString() {
         return word_composite_id;
