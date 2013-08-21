@@ -2,27 +2,84 @@ var express = require('express');
 var fs = require('fs');
 var app = express();
 
-app.get('/exercise/v1/chapter/:id', function (req, res) {
+app.get('/root', function (req, res) {
 	res.send({
-		lessons: [
+		subjects: [
 			{
-				id: "lesson1"
+				name: "语文",
+				id: "101",
+				ts: "1",
+				chapter: [
+					{
+						id: "1011",
+						name: "语文第一章",
+						enter_lesson: "10111",
+						exit_lesson: "1014",
+						lessons: [
+							{
+								id: "10111",
+								title: "语文第一章第一课"
+							},
+							{
+								id: "10112",
+								title: "语文第一章第二课",
+								requirements: ["10111"]
+							},
+							{
+								id: "10113",
+								title: "语文第一章第三课",
+								requirements: ["10111"]
+							},
+							{
+								id: "1014",
+								title: "语文第一章第四课",
+								requirements: ["10112", "10113"]
+							}
+						]
+					},
+					{
+						id: "1012",
+						name: "语文第二章",
+						enter_lesson: "10121",
+						exit_lesson: "10124",
+						lessons: [
+							{
+								id: "10121",
+								title: "语文第二章第一课"
+							},
+							{
+								id: "10122",
+								title: "语文第二章第二课",
+								requirements: ["10121"]
+							},
+							{
+								id: "10123",
+								title: "语文第二章第三课",
+								requirements: ["10121"]
+							},
+							{
+								id: "10124",
+								title: "语文第二章第四课",
+								requirements: ["10122", "10123"]
+							}
+						]
+					}
+				]
 			},
 			{
-				id: "lesson2",
-				requirements: ["lesson1"]
+				name: "数学",
+				id: "102",
+				ts: "1"
 			},
 			{
-				id: "lesson3",
-				requirements: ["lesson1"]
-			},
-			{
-				id: "lesson4",
-				requirements: ["lesson2", "lesson3"]
+				name: "英语",
+				id: "103",
+				ts: "1"
 			}
 		]
 	});
 });
+
 
 app.get('/exercise/v1/lesson/:id.json', function (req, res) {
 	fs.readFile(
