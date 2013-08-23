@@ -4,7 +4,6 @@ import com.google.code.morphia.annotations.Embedded;
 import com.google.code.morphia.annotations.Entity;
 import play.modules.morphia.Model;
 
-import java.util.ArrayList;
 import java.util.List;
 
 /**
@@ -41,9 +40,7 @@ import java.util.List;
 public class Problem extends Model {
 
     public String spelling;
-
     public String unit_id;
-
     /**
      * <html> 题目
      */
@@ -77,15 +74,14 @@ public class Problem extends Model {
      * <html> 提示，可能没有
      */
     public String hint;
-
     public String use;
-
     public String answer;
-
     public String audio;
     public String image;
-
-    public int profieciency;
+    public String profieciency = "";
+    public String wrong_select1;
+    public String wrong_select2;
+    public String wrong_select3;
 
     public String toString() {
         return word_composite_id;
