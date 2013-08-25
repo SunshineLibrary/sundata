@@ -1,120 +1,211 @@
 var express = require('express');
 var fs = require('fs');
+var http = require('http');
 var app = express();
 
-app.get('/root', function (req, res) {
-	res.send({
+app.use(express.bodyParser());
+
+getJSON = function(options, onResult)
+{
+    console.log("rest::getJSON");
+
+    var prot = options.port == 443 ? https : http;
+    var req = prot.request(options, function(res)
+    {
+        var output = '';
+        console.log(options.host + ':' + res.statusCode);
+        res.setEncoding('utf8');
+
+        res.on('data', function (chunk) {
+            output += chunk;
+        });
+
+        res.on('end', function() {
+            var obj = JSON.parse(output);
+            onResult(res.statusCode, obj);
+        });
+    });
+
+    req.on('error', function(err) {
+        //res.send('error: ' + err.message);
+    });
+
+    req.end();
+};
+
+
+app.get('/exercise/v1/root', function (req, res) {
+	console.log("hit");
+	res.jsonp({
 		subjects: [
 			{
-				name: "语文",
+				title: "语文",
 				id: "101",
 				ts: "1",
-				chapter: [
+				chapters: [
 					{
 						id: "1011",
 						ts: "1",
-						name: "语文第一章",
+						title: "语文第一章",
 						enter_lesson: "10111",
 						exit_lesson: "1014",
 						lessons: [
 							{
-								id: "10111",
+								id: "05be6bf8-bc78-11e2-9d5a-00163e011797",
 								ts: "1",
 								title: "语文第一章第一课"
-							},
-							{
-								id: "10112",
-								ts: "1",
-								title: "语文第一章第二课",
-								requirements: ["10111"]
-							},
-							{
-								id: "10113",
-								ts: "1",
-								title: "语文第一章第三课",
-								requirements: ["10111"]
-							},
-							{
-								id: "1014",
-								ts: "4",
-								title: "语文第一章第四课",
-								requirements: ["10112", "10113"]
-							}
-						]
-					},
-					{
-						id: "1012",
-						ts: "2",
-						name: "语文第二章",
-						enter_lesson: "10121",
-						exit_lesson: "10124",
-						lessons: [
-							{
-								id: "10121",
-								title: "语文第二章第一课"
-							},
-							{
-								id: "10122",
-								title: "语文第二章第二课",
-								requirements: ["10121"]
-							},
-							{
-								id: "10123",
-								title: "语文第二章第三课",
-								requirements: ["10121"]
-							},
-							{
-								id: "10124",
-								title: "语文第二章第四课",
-								requirements: ["10122", "10123"]
 							}
 						]
 					}
 				]
-			},
-			{
-				name: "数学",
+			}
+		/*	{
+				title: "数学",
 				id: "102",
 				ts: "1"
 			},
 			{
-				name: "英语",
+				title: "英语",
 				id: "103",
 				ts: "1"
-			}
-		]
+			}*/
+		],
+		userinfo: {
+			ts: "1"
+		},
+		resources: {
+			ts: "1"
+		},
+		achievements: {
+			ts: "1"
+		}
 	});
 });
 
+app.get('/exercise/v1/achievements', function (req, res) {
+	if((req.param("act") == "cache"||req.param("act")=="status")){
+		res.jsonp({
+			manifest: [
+				{
+					url: "/media/123.mp4" 
+				}
+			]
+		});	
+	}else{		
+		fs.readFile(
+			__dirname + '/data/achievements.json',
+			'utf8',
+			function (err, data) {
+				if (err) {
+					res.jsonp(404, {error: "no such lesson"});
+				} else {
+					res.jsonp(JSON.parse(data));
+			}
+		})
+	}
+});
 
-app.get('/exercise/v1/lesson/:id.json', function (req, res) {
-	fs.readFile(
+app.get('/exercise/v1/chapters/:id', function (req, res) {
+	if(req.param("id") == "1011" && req.param("ts") == "1"){
+		res.jsonp({
+			manifest: [
+				{
+					url: "/123.mp4" 
+				}
+			]
+		});	
+	}
+});
+
+app.get('/exercise/v1/resources', function (req, res){
+	if(req.param("ts") == "1"){
+		res.jsonp({
+			manifest: [
+				{
+					url: "click.wma"
+				}
+			]
+		});
+	}
+});
+
+app.get('/exercise/v1/lessons/:id', function (req, res) {
+	var option = {
+		host: "192.168.3.23",
+		port: 9000,
+		path: "/lesson?lessonId=" + req.param("id"),
+		method: "GET",
+		headers: {
+       			'Content-Type': 'application/json'
+   		}
+	};
+/*
+	http.request(option, function(response){
+		console.log("status: " + response.statusCode);		
+		var output = '';
+       		 response.setEncoding('utf8');
+
+       		 response.on('data', function (chunk) {
+            		output += chunk;
+        	});
+
+        	response.on('end', function() {
+            		var obj = JSON.parse(output);
+            		res.send(obj);
+        	});
+	}).
+	on("error", function(err){
+		console.log("error: " + err);
+	});
+	
+*/
+    getJSON(option,
+        function(statusCode, result)
+        {
+            // I could work with the result html/json here.  I could also just return it
+            console.log("onResult: (" + statusCode + ")" + JSON.stringify(result));
+            res.statusCode = statusCode;
+            res.send(result);
+        });
+
+
+/*fs.readFile(
 		__dirname + '/data/' + req.param("id") + '/lesson.json',
 		'utf8',
 		function (err, data) {
 			if (err) {
-				res.send(404, {error: "no such lesson"});
+				res.jsonp(404, {error: "no such lesson"});
 			} else {
 				res.jsonp(JSON.parse(data));
 			}
-		})
-});
+		})*/
+})
 
-app.get('/exercise/v1/lesson/:id/:fname', function (req, res) {
+/*app.get('/exercise/v1/lessons/:id/:fname', function (req, res) {
 	console.log("lesson files");
 	res.send("a mp3 file");
+});*/
+
+app.get('/exercise/v1/lessons/:id/:fname', function (req, res) {
+	res.sendfile(__dirname + "/data/multimedia/" + req.param("fname"));
 });
 
-app.get('/exercise/v1/lesson/:id/:fname', function (req, res) {
-	res.sendfile(__dirname + "/data/" + req.param("id") + '/' + req.param("fname"));
+app.get('/exercise/v1/user_data/lessons/:id', function (req, res) {
+	res.jsonp({});
 });
 
+var currentUser = {
+	name: "小明",
+	age: "12",
+	achievements: {
+		badges: {},
+		awards: {}
+	}
+};
 
-var currentUser = {};
-
-app.get('/userinfo', function (req, res) {
+app.get('/exercise/v1/user_info', function (req, res) {
 	console.log("get userinfo:" + currentUser);
-	res.send(currentUser);
+	res.jsonp(currentUser);
 });
 
 app.post('/userinfo', function (req, res) {
@@ -124,7 +215,7 @@ app.post('/userinfo', function (req, res) {
 });
 
 var reqCount = 0;
-app.get('/exercise/v1/achievements', function (req, res) {
+/*app.get('/exercise/v1/achievements', function (req, res) {
 	console.log(req.param("ts"));
 	console.log(req.param("act"));
 	if (typeof req.param("ts") != "undefined" && typeof req.param("act") == "undefined") {
@@ -155,7 +246,9 @@ app.get('/exercise/v1/achievements', function (req, res) {
 
 	}
 })
+*/
 
+app.use('/media', express.static(__dirname + '/data/media'));
 
 app.listen(3000);
 console.log('Listening on port 3000');
