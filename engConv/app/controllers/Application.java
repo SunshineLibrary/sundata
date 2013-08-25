@@ -16,7 +16,6 @@ import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileReader;
 import java.io.IOException;
-import java.util.ArrayList;
 import java.util.List;
 
 public class Application extends Controller {
@@ -24,7 +23,7 @@ public class Application extends Controller {
     public static void deleteAll() {
         //MorphiaFixtures.deleteDatabase();
         Problem.deleteAll();
-//        Phonetics.deleteAll();
+        Phonetics.deleteAll();
 //        Word.deleteAll();
         renderText("complete delete all");
     }
@@ -134,32 +133,37 @@ public class Application extends Controller {
 
         public Problem parseEntry(String... data) {
             Problem ret = new Problem();
-            String wordSpelling = data[0].trim();
-            String unit_id = data[1];
+            String wordSpelling = data[2].trim();
+            String unit_id = data[0];
             Word word = Word.q("composite_id", Word.getWordId(wordSpelling, unit_id)).first();
             if (word == null) {
                 Logger.warn("Problem not imported. Word not exists,%s,%s.", wordSpelling, unit_id);
                 return new Problem();
             }
+            ret.spelling = wordSpelling;
+            ret.unit_id = unit_id;
             ret.word_composite_id = word.composite_id;
-            ret.type = data[2];
+            ret.type = data[1];
             ret.pool = data[3];
             ret.title = data[4];
             ret.body = data[5];
             ret.audio = data[6];
             ret.image = data[7];
 
-
             Logger.info("problem type:" + ret.type);
             if (!"填空".equals(ret.type)) {
-                ret.choices = new ArrayList<Problem.ProblemChoice>();
-                Problem.ProblemChoice rightOne = new Problem.ProblemChoice(data[8], true);
-                ret.choices.add(rightOne);
-                Problem.ProblemChoice wrongOne = null;
-                for (int i = 9; i < 12; i++) {
-                    wrongOne = new Problem.ProblemChoice(data[i], false);
-                    ret.choices.add(wrongOne);
-                }
+                ret.answer = data[8];
+                ret.wrong_select1 = data[9];
+                ret.wrong_select2 = data[10];
+                ret.wrong_select3 = data[11];
+//                ret.choices = new ArrayList<Problem.ProblemChoice>();
+//                Problem.ProblemChoice rightOne = new Problem.ProblemChoice(data[8], true);
+//                ret.choices.add(rightOne);
+//                Problem.ProblemChoice wrongOne = null;
+//                for (int i = 9; i < 12; i++) {
+//                    wrongOne = new Problem.ProblemChoice(data[i], false);
+//                    ret.choices.add(wrongOne);
+//                }
             } else {
                 ret.answer = data[8];
             }
