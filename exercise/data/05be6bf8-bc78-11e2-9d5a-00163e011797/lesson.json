@@ -1,0 +1,1321 @@
+{"id": "05be6bf8-bc78-11e2-9d5a-00163e011797", "ts": 1377512390913, "title": "英语语法 - 单数第三人称的使用", "summary": "", "pass_score": "20%", "star1": 40, "star2": 60, "star3": 80, "activities": [
+    {
+        "id": "64a3420a-bc79-11e2-8fa4-00163e011797",
+        "order": 0,
+        "parent_id": "05be6bf8-bc78-11e2-9d5a-00163e011797",
+        "title": "动词单数第三人称介绍",
+        "type": "lecture",
+        "redoable": true,
+        "body": "\u003cxvideo src\u003d\u0027test.mp4\u0027\u003e\u003c/xvideo\u003e\u003cxaudio src\u003d\u0027test.mp3\u0027\u003e\u003c/xaudio\u003e\u003cximage src\u003d\u0027test.jpg\u0027\u003e\u003c/ximage\u003e\u003cxpdf src\u003d\u0027test.pdf\u0027\u003e\u003c/xpdf\u003e"
+    },
+    {
+        "id": "590c4592-bc7c-11e2-9f7b-00163e011797",
+        "order": 1,
+        "parent_id": "05be6bf8-bc78-11e2-9d5a-00163e011797",
+        "title": "最终测试 测试",
+        "type": "quiz",
+        "show_summary": true,
+        "show_answer": true,
+        "redoable": true,
+        "is_final": true,
+        "body": "",
+        "pool_count": 5,
+        "jump": ["end_of_lesson_if_correctness:\u003c\u003d9"],
+        "problems": [
+            {
+                "id": "7c212151-0580-49e8-be32-98de582b5b4b",
+                "order": 0,
+                "parent_id": "590c4592-bc7c-11e2-9f7b-00163e011797",
+                "type": "singlefilling",
+                "body": "（下面这些题目，全部答对有奖励哦！）请填括号中动词的适当形式：\r\nShe ___ (watch) TV.  她看电视。\r\n(watch的意思是看)\r\n",
+                "hint": "我丫是个hint",
+                "correct_answer": "watches"
+            },
+            {
+                "id": "d8a326c2-4a3b-4b6e-a8ae-f18f7f8564e0",
+                "order": 1,
+                "parent_id": "590c4592-bc7c-11e2-9f7b-00163e011797",
+                "type": "singlefilling",
+                "body": "A bird (鸟) ___ (fly) high.  一只鸟飞得很高。\r\n(fly的意思是飞)\r\n",
+                "correct_answer": "flies"
+            },
+            {
+                "id": "b471be4f-11a6-48a7-a3b3-b7cc37026911",
+                "order": 2,
+                "parent_id": "590c4592-bc7c-11e2-9f7b-00163e011797",
+                "type": "singlefilling",
+                "body": "____ (do) Mr. Li and Tom play the guitar (弹吉他)?  李先生和Tom弹吉他吗？ (注意大小写哦！)",
+                "correct_answer": "Do"
+            },
+            {
+                "id": "1534c730-c534-4b12-8013-5df40bcb7540",
+                "order": 3,
+                "parent_id": "590c4592-bc7c-11e2-9f7b-00163e011797",
+                "type": "singlefilling",
+                "body": "Fire (火) ___ (hurt).  火会烧伤人。\r\n(hurt的意思是灼伤)\r\n",
+                "correct_answer": "hurts"
+            },
+            {
+                "id": "d4c009bd-8640-4347-b3ff-352b4b1a6383",
+                "order": 4,
+                "parent_id": "590c4592-bc7c-11e2-9f7b-00163e011797",
+                "type": "singlefilling",
+                "body": "It ___ (lay) an egg(鸡蛋).  它下了个蛋。\r\n(lay的意思是下蛋)\r\n",
+                "correct_answer": "lays"
+            },
+            {
+                "id": "ba79e2ff-7a42-4700-8f88-99c075c5ad6a",
+                "order": 5,
+                "parent_id": "590c4592-bc7c-11e2-9f7b-00163e011797",
+                "type": "singlefilling",
+                "body": "Zhu Ming ______ (address) to the class. 朱明对班级讲话。\r\n(address的意思是讲话)\r\n",
+                "correct_answer": "addresses"
+            },
+            {
+                "id": "6a74adea-fac3-437c-a541-8c7bfb6cd659",
+                "order": 6,
+                "parent_id": "590c4592-bc7c-11e2-9f7b-00163e011797",
+                "type": "singlefilling",
+                "body": "____ (be) an apple good?  一个苹果可以吗？(注意大小写哦！)",
+                "correct_answer": "Is"
+            },
+            {
+                "id": "78e9a543-32e2-4909-b58d-6387ecdff2d6",
+                "order": 7,
+                "parent_id": "590c4592-bc7c-11e2-9f7b-00163e011797",
+                "type": "singlefilling",
+                "body": "You ____ (wash) the clothes (衣服).  你洗衣服。\r\n(wash的意思是洗)\r\n",
+                "correct_answer": "wash"
+            },
+            {
+                "id": "a89624ff-80ea-45f8-b3de-71d42b5cf35e",
+                "order": 8,
+                "parent_id": "590c4592-bc7c-11e2-9f7b-00163e011797",
+                "type": "singlefilling",
+                "body": "____ (have) he eaten(吃饭)?  他吃过饭了吗？",
+                "correct_answer": "Has"
+            },
+            {
+                "id": "b9c66a3f-6502-4998-8b4f-099b7f04ca2f",
+                "order": 9,
+                "parent_id": "590c4592-bc7c-11e2-9f7b-00163e011797",
+                "type": "singlefilling",
+                "body": "Jerry ____ (worry) about Tom.  Jerry很担心Tom。\r\n(worry的意思是担心)\r\n",
+                "correct_answer": "worries"
+            }
+        ]
+    },
+    {
+        "id": "42881d50-bd08-11e2-a08b-00163e011797",
+        "order": 2,
+        "parent_id": "05be6bf8-bc78-11e2-9d5a-00163e011797",
+        "title": "动词单数第三人称（课前小测试） 测试",
+        "type": "quiz",
+        "redoable": true,
+        "body": "",
+        "jump": ["to_activity_if_correctness:64a3420a-bc79-11e2-8fa4-00163e011797:\u003c\u003d1"],
+        "problems": [
+            {
+                "id": "8e7d76b6-6fc7-48b5-b6a3-24b5949a8fa2",
+                "order": 0,
+                "parent_id": "42881d50-bd08-11e2-a08b-00163e011797",
+                "type": "singlefilling",
+                "body": "先来考考你会不会下面的知识^^ 请填括号中动词的适当形式： She ___ (teach) English. 她教英语。 (动词teach的意思是教)",
+                "correct_answer": "teaches"
+            },
+            {
+                "id": "45ab3e82-72ce-4f3a-ac6d-18757439d3cd",
+                "order": 1,
+                "parent_id": "42881d50-bd08-11e2-a08b-00163e011797",
+                "type": "singlefilling",
+                "body": "We ___ (eat) an apple (苹果). 我们吃一个苹果。 (eat的意思是吃)",
+                "correct_answer": "eat"
+            }
+        ]
+    },
+    {
+        "id": "097baa12-bd09-11e2-9998-00163e011797",
+        "order": 3,
+        "parent_id": "05be6bf8-bc78-11e2-9d5a-00163e011797",
+        "title": "动词单数第三人称介绍测试",
+        "type": "quiz",
+        "redoable": true,
+        "body": "",
+        "jump": ["to_activity_if_correctness:2911f154-bc7a-11e2-9f7b-00163e011797:\u003c\u003d1"],
+        "problems": [
+            {
+                "id": "bef04398-cb0d-4226-bd85-b69ac0b99416",
+                "order": 0,
+                "parent_id": "097baa12-bd09-11e2-9998-00163e011797",
+                "type": "singlefilling",
+                "body": "我们再来做一个小测试吧：首先，动词rely(依赖)的单数第三人称形式是____",
+                "correct_answer": "relies"
+            },
+            {
+                "id": "45d6a84a-70f9-4862-853a-5672630d8362",
+                "order": 1,
+                "parent_id": "097baa12-bd09-11e2-9998-00163e011797",
+                "type": "singlefilling",
+                "body": "动词speech(演讲)的单数第三人称形式是____",
+                "correct_answer": "speeches"
+            }
+        ]
+    },
+    {
+        "id": "40b28e92-bd09-11e2-9998-00163e011797",
+        "order": 4,
+        "parent_id": "05be6bf8-bc78-11e2-9d5a-00163e011797",
+        "title": "动词单数第三人称介绍测试",
+        "type": "quiz",
+        "redoable": true,
+        "body": "",
+        "jump": ["to_activity_if_correctness:00e33f0e-bd0a-11e2-9998-00163e011797:\u003e\u003d3"],
+        "problems": [
+            {
+                "id": "1cbd5af4-d8a3-4c84-9e1f-212be9b794f3",
+                "order": 0,
+                "parent_id": "40b28e92-bd09-11e2-9998-00163e011797",
+                "type": "singlefilling",
+                "body": "(做得不错，再试试这几道题，答对就可以直接过关哦！) 动词pray(祈祷)的单数第三人称形式是____",
+                "correct_answer": "prays"
+            },
+            {
+                "id": "6111480a-caef-4b72-a6b8-417f0d3f62b7",
+                "order": 1,
+                "parent_id": "40b28e92-bd09-11e2-9998-00163e011797",
+                "type": "singlefilling",
+                "body": "动词have(有)的单数第三人称形式是____",
+                "correct_answer": "has"
+            },
+            {
+                "id": "a1efbc38-dfc9-4dfe-9c13-f86090a4f078",
+                "order": 2,
+                "parent_id": "40b28e92-bd09-11e2-9998-00163e011797",
+                "type": "singlefilling",
+                "body": "(最后一道了哦，加油！)动词be(是)的单数第三人称形式是____",
+                "correct_answer": "is"
+            }
+        ]
+    },
+    {
+        "id": "a83e6468-bc79-11e2-9d5a-00163e011797",
+        "order": 5,
+        "parent_id": "05be6bf8-bc78-11e2-9d5a-00163e011797",
+        "title": "动词变单数第三人称 讲解",
+        "type": "lecture",
+        "redoable": true,
+        "body": "\u003cxvideo src\u003d\"动词单数第三人称-2._变化.mp4\"\u003e\u003c/xvideo\u003e"
+    },
+    {
+        "id": "f6f19de6-bc79-11e2-a70b-00163e011797",
+        "order": 6,
+        "parent_id": "05be6bf8-bc78-11e2-9d5a-00163e011797",
+        "title": "动词变单数第三人称 练习",
+        "type": "quiz",
+        "show_answer": true,
+        "show_summary": true,
+        "redoable": true,
+        "body": "",
+        "problems": [
+            {
+                "id": "5784457c-2428-44f9-97ed-82eb83b7addd",
+                "order": 0,
+                "parent_id": "f6f19de6-bc79-11e2-a70b-00163e011797",
+                "type": "singlefilling",
+                "body": "worry (担心)的单数第三人称形态是____ (y结尾，注意y前面的字母是元音字母还是辅音字母哟^^)",
+                "correct_answer": "worries"
+            },
+            {
+                "id": "ea0b4ec3-36b8-4d7e-bd5f-502c25409a8d",
+                "order": 1,
+                "parent_id": "f6f19de6-bc79-11e2-a70b-00163e011797",
+                "type": "singlefilling",
+                "body": "pay (付钱)的单数第三人称形态是____ (y结尾，注意y前面的字母是元音字母还是辅音字母哟^~^)",
+                "correct_answer": "pays"
+            }
+        ]
+    },
+    {
+        "id": "2911f154-bc7a-11e2-9f7b-00163e011797",
+        "order": 7,
+        "parent_id": "05be6bf8-bc78-11e2-9d5a-00163e011797",
+        "title": "动词变单数第三人称 讲解",
+        "type": "lecture",
+        "redoable": true,
+        "body": "\u003cxvideo src\u003d\"动词单数第三人称-3._变化总结.mp4\"\u003e\u003c/xvideo\u003e"
+    },
+    {
+        "id": "ffdcc84e-d016-11e2-ac75-00163e011797",
+        "order": 8,
+        "parent_id": "05be6bf8-bc78-11e2-9d5a-00163e011797",
+        "title": "动词变单数第三人称新练习 测试",
+        "type": "quiz",
+        "redoable": true,
+        "body": "",
+        "jump": ["to_activity_if_correctness:00e33f0e-bd0a-11e2-9998-00163e011797:\u003e\u003d7"],
+        "problems": [
+            {
+                "id": "069f7503-7a7b-4401-84a8-8a89e591c71e",
+                "order": 0,
+                "parent_id": "ffdcc84e-d016-11e2-ac75-00163e011797",
+                "type": "singlefilling",
+                "body": "学习告一段落，下面来考考你！speech (演讲)的单数第三人称形态是____",
+                "correct_answer": "speeches"
+            },
+            {
+                "id": "b0829fde-b7bf-4698-9d7b-85a615786127",
+                "order": 1,
+                "parent_id": "ffdcc84e-d016-11e2-ac75-00163e011797",
+                "type": "singlefilling",
+                "body": "know (知道)的单数第三人称形态是____",
+                "correct_answer": "knows"
+            },
+            {
+                "id": "c643c8bd-a2dc-40f0-856e-e6009907a511",
+                "order": 2,
+                "parent_id": "ffdcc84e-d016-11e2-ac75-00163e011797",
+                "type": "singlefilling",
+                "body": "worry (担心)的单数第三人称形态是____",
+                "correct_answer": "worries"
+            },
+            {
+                "id": "bdf5c9ac-6936-42f4-9911-b9cec8c9dd00",
+                "order": 3,
+                "parent_id": "ffdcc84e-d016-11e2-ac75-00163e011797",
+                "type": "singlefilling",
+                "body": "address (讲)的单数第三人称形态是____",
+                "correct_answer": "addresses"
+            },
+            {
+                "id": "315d8a60-f226-49f0-b72c-e7633da37613",
+                "order": 4,
+                "parent_id": "ffdcc84e-d016-11e2-ac75-00163e011797",
+                "type": "singlefilling",
+                "body": "pray (祈祷)的单数第三人称形态是____",
+                "correct_answer": "prays"
+            },
+            {
+                "id": "b1e24788-1673-4918-beac-adc9347453ce",
+                "order": 5,
+                "parent_id": "ffdcc84e-d016-11e2-ac75-00163e011797",
+                "type": "singlefilling",
+                "body": "wax (打蜡)的单数第三人称形态是____",
+                "correct_answer": "waxes"
+            },
+            {
+                "id": "1cd48d8b-2b73-4d94-9e3f-2d60124ff54c",
+                "order": 6,
+                "parent_id": "ffdcc84e-d016-11e2-ac75-00163e011797",
+                "type": "singlefilling",
+                "body": "最后一道测试题了，加油！do (做)的单数第三人称形态是____",
+                "correct_answer": "does"
+            }
+        ]
+    },
+    {
+        "id": "5b185e76-d017-11e2-9a1e-00163e011797",
+        "order": 9,
+        "parent_id": "05be6bf8-bc78-11e2-9d5a-00163e011797",
+        "title": "动词变单数第三人称新练习 讲解（文档）",
+        "type": "lecture",
+        "redoable": true,
+        "body": "\u003cxpdf src\u003d\"动词-动词的第三人称单数变化(new)_213.pdf\"\u003e\u003c/xpdf\u003e"
+    },
+    {
+        "id": "6f1289b0-d017-11e2-9a1e-00163e011797",
+        "order": 10,
+        "parent_id": "05be6bf8-bc78-11e2-9d5a-00163e011797",
+        "title": "动词变单数第三人称新练习 讲解（视频）",
+        "type": "lecture",
+        "redoable": true,
+        "body": "\u003cxvideo src\u003d\"动词单数第三人称-4._变化习题讲解.mp4\"\u003e\u003c/xvideo\u003e"
+    },
+    {
+        "id": "8a5642b6-d017-11e2-ac75-00163e011797",
+        "order": 11,
+        "parent_id": "05be6bf8-bc78-11e2-9d5a-00163e011797",
+        "title": "小调查",
+        "type": "quiz",
+        "redoable": true,
+        "body": "",
+        "jump": ["to_activity_if_correctness:00e33f0e-bd0a-11e2-9998-00163e011797:\u003e\u003d0"],
+        "problems": [
+            {
+                "id": "38f7c434-9a45-42bf-8d54-dc97f8068728",
+                "order": 0,
+                "parent_id": "8a5642b6-d017-11e2-ac75-00163e011797",
+                "type": "singlechoice",
+                "body": "这道题目是关于你喜不喜欢刚才看到的讲解，告诉我们你的感觉就可以，没有“对错”，也不用管系统的对错提示 :)",
+                "choices": [
+                    {
+                        "id": "27ecef24-5b6d-4cd4-a39f-c01a73fa4adf",
+                        "order": 0,
+                        "body": "我看了文档(pdf)的题目讲解之后还是不太明白，看后面的视频对我弄明白刚才做错的题目挺有帮助的。",
+                        "is_correct": false
+                    },
+                    {
+                        "id": "c05b574e-4da9-4414-b302-caedf7ae2229",
+                        "order": 1,
+                        "body": "我看了文档(pdf)的题目讲解之后已经很明白了，再看后面的视频没什么帮助。",
+                        "is_correct": false
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "57c95f1e-bc7a-11e2-9f7b-00163e011797",
+        "order": 12,
+        "parent_id": "05be6bf8-bc78-11e2-9d5a-00163e011797",
+        "title": "动词变单数第三人称练习 测试",
+        "type": "quiz",
+        "redoable": true,
+        "body": "",
+        "jump": ["to_activity_if_correctness:00e33f0e-bd0a-11e2-9998-00163e011797:\u003e\u003d7"],
+        "problems": [
+            {
+                "id": "03047591-24e7-497a-8557-0ee7d0c81285",
+                "order": 0,
+                "parent_id": "57c95f1e-bc7a-11e2-9f7b-00163e011797",
+                "type": "singlefilling",
+                "body": "学习告一段落，下面来考考你！speech (演讲)的单数第三人称形态是____",
+                "correct_answer": "speeches"
+            },
+            {
+                "id": "dd441bb3-5005-4c83-9db1-0273afc4fba8",
+                "order": 1,
+                "parent_id": "57c95f1e-bc7a-11e2-9f7b-00163e011797",
+                "type": "singlefilling",
+                "body": "know (知道)的单数第三人称形态是____",
+                "correct_answer": "knows"
+            },
+            {
+                "id": "d1a90199-5f91-4354-a43e-7f585cf5f00e",
+                "order": 2,
+                "parent_id": "57c95f1e-bc7a-11e2-9f7b-00163e011797",
+                "type": "singlefilling",
+                "body": "worry (担心)的单数第三人称形态是____",
+                "correct_answer": "worries"
+            },
+            {
+                "id": "77d08a78-93fb-48c1-9ce7-794701ca2a27",
+                "order": 3,
+                "parent_id": "57c95f1e-bc7a-11e2-9f7b-00163e011797",
+                "type": "singlefilling",
+                "body": "address (讲)的单数第三人称形态是____",
+                "correct_answer": "addresses"
+            },
+            {
+                "id": "a7203505-7c42-4e10-95ed-5451c0e0ac12",
+                "order": 4,
+                "parent_id": "57c95f1e-bc7a-11e2-9f7b-00163e011797",
+                "type": "singlefilling",
+                "body": "pray (祈祷)的单数第三人称形态是____",
+                "correct_answer": "prays"
+            },
+            {
+                "id": "a71398b3-cdad-477b-8e70-8b152f521c08",
+                "order": 5,
+                "parent_id": "57c95f1e-bc7a-11e2-9f7b-00163e011797",
+                "type": "singlefilling",
+                "body": "wax (打蜡)的单数第三人称形态是____",
+                "correct_answer": "waxes"
+            },
+            {
+                "id": "ff17ce1e-1259-4a1d-a730-b188ca5a7251",
+                "order": 6,
+                "parent_id": "57c95f1e-bc7a-11e2-9f7b-00163e011797",
+                "type": "singlefilling",
+                "body": "最后一道测试题了，加油！do (做)的单数第三人称形态是____",
+                "correct_answer": "does"
+            }
+        ]
+    },
+    {
+        "id": "5fd14cbc-bc7a-11e2-9f7b-00163e011797",
+        "order": 13,
+        "parent_id": "05be6bf8-bc78-11e2-9d5a-00163e011797",
+        "title": "动词变单数第三人称练习 讲解",
+        "type": "lecture",
+        "redoable": true,
+        "body": "\u003cxvideo src\u003d\"动词单数第三人称-4._变化习题讲解.mp4\"\u003e\u003c/xvideo\u003e"
+    },
+    {
+        "id": "8bf9a06e-bc7a-11e2-9f7b-00163e011797",
+        "order": 14,
+        "parent_id": "05be6bf8-bc78-11e2-9d5a-00163e011797",
+        "title": "动词变单数第三人称练习 练习",
+        "type": "quiz",
+        "show_answer": true,
+        "show_summary": true,
+        "redoable": true,
+        "body": "",
+        "problems": [
+            {
+                "id": "d400583c-c313-4a02-8311-45a1aab43e6e",
+                "order": 0,
+                "parent_id": "8bf9a06e-bc7a-11e2-9f7b-00163e011797",
+                "type": "singlefilling",
+                "body": "再来做几道练习题巩固一下吧！go (去)的单数第三人称形态是____",
+                "correct_answer": "goes"
+            },
+            {
+                "id": "1a2bea5d-8e09-4441-a897-094876eaf1e1",
+                "order": 1,
+                "parent_id": "8bf9a06e-bc7a-11e2-9f7b-00163e011797",
+                "type": "singlefilling",
+                "body": "swim (游泳)的单数第三人称形态是____",
+                "correct_answer": "swims"
+            },
+            {
+                "id": "eba44b7a-ba38-45b1-9af4-c61e3fd527db",
+                "order": 2,
+                "parent_id": "8bf9a06e-bc7a-11e2-9f7b-00163e011797",
+                "type": "singlefilling",
+                "body": "betray (背叛)的单数第三人称形态是____",
+                "correct_answer": "betrays"
+            },
+            {
+                "id": "a5989f48-d28a-4737-80ae-9ed2b9a53c87",
+                "order": 3,
+                "parent_id": "8bf9a06e-bc7a-11e2-9f7b-00163e011797",
+                "type": "singlefilling",
+                "body": "wash (洗)的单数第三人称形态是____",
+                "correct_answer": "washes"
+            },
+            {
+                "id": "322948a0-cdfe-492c-b7a4-8af783925d0d",
+                "order": 4,
+                "parent_id": "8bf9a06e-bc7a-11e2-9f7b-00163e011797",
+                "type": "singlefilling",
+                "body": "play (玩)的单数第三人称形态是____",
+                "correct_answer": "plays"
+            },
+            {
+                "id": "0f76f85e-76ac-4967-8c82-38b0cf98dcd9",
+                "order": 5,
+                "parent_id": "8bf9a06e-bc7a-11e2-9f7b-00163e011797",
+                "type": "singlefilling",
+                "body": "watch (看)的单数第三人称形态是____",
+                "correct_answer": "watches"
+            },
+            {
+                "id": "cbc9ffdd-7a9d-4f32-b634-77059d795ae3",
+                "order": 6,
+                "parent_id": "8bf9a06e-bc7a-11e2-9f7b-00163e011797",
+                "type": "singlefilling",
+                "body": "注意这道题哦！fly (飞)的单数第三人称形态是____",
+                "correct_answer": "flies"
+            },
+            {
+                "id": "6b789bb6-9038-4dd2-a08e-6a8c7c4d8a07",
+                "order": 7,
+                "parent_id": "8bf9a06e-bc7a-11e2-9f7b-00163e011797",
+                "type": "singlefilling",
+                "body": "tie (打平)的单数第三人称形态是____",
+                "correct_answer": "ties"
+            },
+            {
+                "id": "92a963e2-e665-4ea8-b08c-11c0d3d7d9f6",
+                "order": 8,
+                "parent_id": "8bf9a06e-bc7a-11e2-9f7b-00163e011797",
+                "type": "singlefilling",
+                "body": "fax (传真)的单数第三人称形态是____",
+                "correct_answer": "faxes"
+            },
+            {
+                "id": "8c136d03-d80e-4b54-bf94-fb5db3f554b4",
+                "order": 9,
+                "parent_id": "8bf9a06e-bc7a-11e2-9f7b-00163e011797",
+                "type": "singlefilling",
+                "body": "最后一道题了，努力把它做对吧！have (有)的单数第三人称形态是____",
+                "correct_answer": "has"
+            }
+        ]
+    },
+    {
+        "id": "00e33f0e-bd0a-11e2-9998-00163e011797",
+        "order": 15,
+        "parent_id": "05be6bf8-bc78-11e2-9d5a-00163e011797",
+        "title": "动词单数第三人称（诊断） 测试",
+        "type": "quiz",
+        "redoable": true,
+        "body": "",
+        "jump": ["to_activity_if_correctness:ddfc8610-bc7a-11e2-a70b-00163e011797:\u003c\u003d1"],
+        "problems": [
+            {
+                "id": "3354c57c-340b-4922-9c67-88b22005e8d6",
+                "order": 0,
+                "parent_id": "00e33f0e-bd0a-11e2-9998-00163e011797",
+                "type": "singlechoice",
+                "body": "测试题又来了哦！下面哪一个选项填到横线上是正确的？Mr. Wang ____ us. (王老师教我们。)",
+                "choices": [
+                    {
+                        "id": "2c02d43e-3e6d-4dd0-82a6-da58e5829c24",
+                        "order": 0,
+                        "body": "teach",
+                        "is_correct": false
+                    },
+                    {
+                        "id": "c5cbc865-c45c-4137-a3c3-d28dd52f2b41",
+                        "order": 1,
+                        "body": "teachs",
+                        "is_correct": false
+                    },
+                    {
+                        "id": "e10f4dbb-0a39-42e2-b449-4e3b5d3f4276",
+                        "order": 2,
+                        "body": "teaches",
+                        "is_correct": false
+                    }
+                ]
+            },
+            {
+                "id": "5fbf2143-9bed-448e-9767-4af852bd5f9d",
+                "order": 1,
+                "parent_id": "00e33f0e-bd0a-11e2-9998-00163e011797",
+                "type": "multichoice",
+                "body": "下面哪几个选项填到横线上是正确的？ ____ has a cat(猫).",
+                "choices": [
+                    {
+                        "id": "18e70b84-7aad-42aa-9f0a-739b894097c5",
+                        "order": 0,
+                        "body": "Mr. and Mr. Wang",
+                        "is_correct": false
+                    },
+                    {
+                        "id": "de443dfc-19aa-4496-a044-f63aaad9674d",
+                        "order": 1,
+                        "body": "He",
+                        "is_correct": false
+                    },
+                    {
+                        "id": "5029c6b3-b6fe-48b0-8b3f-9e150a933dc9",
+                        "order": 2,
+                        "body": "You",
+                        "is_correct": false
+                    },
+                    {
+                        "id": "7f3be4a4-7dec-4b1e-b6aa-c8e46f101b9d",
+                        "order": 3,
+                        "body": "The man",
+                        "is_correct": false
+                    },
+                    {
+                        "id": "c9e70b61-9e44-4fc6-8705-bdee22595f87",
+                        "order": 4,
+                        "body": "They",
+                        "is_correct": false
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "44be192e-bd0a-11e2-9998-00163e011797",
+        "order": 16,
+        "parent_id": "05be6bf8-bc78-11e2-9d5a-00163e011797",
+        "title": "动词单数第三人称（诊断） 测试",
+        "type": "quiz",
+        "redoable": true,
+        "body": "",
+        "jump": ["to_activity_if_correctness:08680bd0-bc7c-11e2-a70b-00163e011797:\u003e\u003d2"],
+        "problems": [
+            {
+                "id": "25bc85dd-17fd-41d8-b5f6-90309bca6741",
+                "order": 0,
+                "parent_id": "44be192e-bd0a-11e2-9998-00163e011797",
+                "type": "singlechoice",
+                "body": "下面哪一个选项填到横线上是正确的？The boys ____.",
+                "choices": [
+                    {
+                        "id": "9a397e63-8116-43fd-9553-c0492a559b25",
+                        "order": 0,
+                        "body": "eat fish",
+                        "is_correct": false
+                    },
+                    {
+                        "id": "71213f5d-a08e-40cb-a0b3-2b2330c113e9",
+                        "order": 1,
+                        "body": "plays soccer",
+                        "is_correct": false
+                    },
+                    {
+                        "id": "e6ccfe75-23ae-4e21-b568-92f91c0e9ef9",
+                        "order": 2,
+                        "body": "is sleeping",
+                        "is_correct": false
+                    }
+                ]
+            },
+            {
+                "id": "a2589fa0-20ad-4d79-8c4f-a6a2ae4b6110",
+                "order": 1,
+                "parent_id": "44be192e-bd0a-11e2-9998-00163e011797",
+                "type": "multichoice",
+                "body": "下面哪几个选项填到横线上是正确的？____ is there.",
+                "choices": [
+                    {
+                        "id": "40fbc5cf-511e-43ec-a2f1-fcbef87b818b",
+                        "order": 0,
+                        "body": "It",
+                        "is_correct": false
+                    },
+                    {
+                        "id": "1e5126e4-840b-444c-8da7-e7d91a0ed15c",
+                        "order": 1,
+                        "body": "Three apples",
+                        "is_correct": false
+                    },
+                    {
+                        "id": "d64b28be-d411-4484-a79d-195d0af58deb",
+                        "order": 2,
+                        "body": "Water (水，不可数)",
+                        "is_correct": false
+                    },
+                    {
+                        "id": "ac2ed266-f0e2-4852-8729-6ddfd4bea6d7",
+                        "order": 3,
+                        "body": "My teacher",
+                        "is_correct": false
+                    },
+                    {
+                        "id": "6207d206-3341-4647-ab21-5955fde9e54b",
+                        "order": 4,
+                        "body": "A boy",
+                        "is_correct": false
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "ddfc8610-bc7a-11e2-a70b-00163e011797",
+        "order": 17,
+        "parent_id": "05be6bf8-bc78-11e2-9d5a-00163e011797",
+        "title": "什么时候使用单数第三人称呢？ 讲解",
+        "type": "lecture",
+        "redoable": true,
+        "body": "\u003cxvideo src\u003d\"动词单数第三人称-5._使用.mp4\"\u003e\u003c/xvideo\u003e"
+    },
+    {
+        "id": "2c2650aa-bc7b-11e2-a70b-00163e011797",
+        "order": 18,
+        "parent_id": "05be6bf8-bc78-11e2-9d5a-00163e011797",
+        "title": "什么时候使用单数第三人称呢？ 练习",
+        "type": "quiz",
+        "show_answer": true,
+        "show_summary": true,
+        "redoable": true,
+        "body": "",
+        "problems": [
+            {
+                "id": "2e956103-eb8e-4ee0-8d8f-6617749459ee",
+                "order": 0,
+                "parent_id": "2c2650aa-bc7b-11e2-a70b-00163e011797",
+                "type": "singlechoice",
+                "body": "小练习来了哦，争取把它们全做对~！Three apples (苹果)作为主语应该用",
+                "choices": [
+                    {
+                        "id": "41daa675-0371-4451-a816-1004bc8fc6fe",
+                        "order": 0,
+                        "body": "动词原形",
+                        "is_correct": true
+                    },
+                    {
+                        "id": "921d0b79-10fe-4438-a3f3-c4ac46f4212d",
+                        "order": 1,
+                        "body": "动词单数第三人称形式",
+                        "is_correct": false
+                    }
+                ]
+            },
+            {
+                "id": "73ffb34b-4785-464b-be00-5799aa251fba",
+                "order": 1,
+                "parent_id": "2c2650aa-bc7b-11e2-a70b-00163e011797",
+                "type": "singlechoice",
+                "body": "They作为主语应该用",
+                "choices": [
+                    {
+                        "id": "b76c7990-b741-4420-82bf-aead941340b4",
+                        "order": 0,
+                        "body": "动词原形",
+                        "is_correct": true
+                    },
+                    {
+                        "id": "9f2a8669-d99f-4c5d-aa77-8ef72a025adc",
+                        "order": 1,
+                        "body": "动词单数第三人称形式",
+                        "is_correct": false
+                    }
+                ]
+            },
+            {
+                "id": "51f6c5a8-68fa-4f50-8d89-cd2fa08dca2c",
+                "order": 2,
+                "parent_id": "2c2650aa-bc7b-11e2-a70b-00163e011797",
+                "type": "singlechoice",
+                "body": "Boys (男孩)作为主语应该用",
+                "choices": [
+                    {
+                        "id": "e7317c35-bac5-4406-803a-42aef01b331c",
+                        "order": 0,
+                        "body": "动词原形",
+                        "is_correct": true
+                    },
+                    {
+                        "id": "8cfec66a-ea1c-453d-a08b-b7f4142393e9",
+                        "order": 1,
+                        "body": "动词单数第三人称形式",
+                        "is_correct": false
+                    }
+                ]
+            },
+            {
+                "id": "17e813ad-0978-4fbe-9648-65f554ee615f",
+                "order": 3,
+                "parent_id": "2c2650aa-bc7b-11e2-a70b-00163e011797",
+                "type": "singlechoice",
+                "body": "You作为主语应该用",
+                "choices": [
+                    {
+                        "id": "1229724e-e788-4daa-b9ef-7781ff02463c",
+                        "order": 0,
+                        "body": "动词原形",
+                        "is_correct": true
+                    },
+                    {
+                        "id": "db4d7bf0-a4cf-49bf-9c1a-b62dab82a7db",
+                        "order": 1,
+                        "body": "动词单数第三人称形式",
+                        "is_correct": false
+                    }
+                ]
+            },
+            {
+                "id": "f9facf8e-da9a-4786-8068-4dd90ce3bd0f",
+                "order": 4,
+                "parent_id": "2c2650aa-bc7b-11e2-a70b-00163e011797",
+                "type": "singlechoice",
+                "body": "Tea (茶，不可数)作为主语应该用",
+                "choices": [
+                    {
+                        "id": "000e7cce-0fcc-4075-9d42-d43ae37157b7",
+                        "order": 0,
+                        "body": "动词原形",
+                        "is_correct": false
+                    },
+                    {
+                        "id": "4437b550-6b98-49ab-bd4a-8cc328f96091",
+                        "order": 1,
+                        "body": "动词单数第三人称形式",
+                        "is_correct": true
+                    }
+                ]
+            },
+            {
+                "id": "5d862100-a879-49f7-877a-549590d4f93b",
+                "order": 5,
+                "parent_id": "2c2650aa-bc7b-11e2-a70b-00163e011797",
+                "type": "singlechoice",
+                "body": "An apple (苹果)作为主语应该用",
+                "choices": [
+                    {
+                        "id": "03b02eea-1352-4963-b9f0-57d84b552c85",
+                        "order": 0,
+                        "body": "动词原形",
+                        "is_correct": false
+                    },
+                    {
+                        "id": "993fa11e-a148-40aa-9ab5-cda8f1a7862f",
+                        "order": 1,
+                        "body": "动词单数第三人称形式",
+                        "is_correct": false
+                    }
+                ]
+            },
+            {
+                "id": "c4d702e7-525b-4100-ada8-0c91fe8657a9",
+                "order": 6,
+                "parent_id": "2c2650aa-bc7b-11e2-a70b-00163e011797",
+                "type": "singlechoice",
+                "body": "Tom作为主语应该用",
+                "choices": [
+                    {
+                        "id": "49e3b94a-b26c-4431-bb6d-057d19d0231a",
+                        "order": 0,
+                        "body": "动词原形",
+                        "is_correct": false
+                    },
+                    {
+                        "id": "985ad91d-ee6e-4d51-952c-a7eeceddb7e2",
+                        "order": 1,
+                        "body": "动词单数第三人称形式",
+                        "is_correct": false
+                    }
+                ]
+            },
+            {
+                "id": "c6383cef-22e7-4fda-9935-d066f9a47d26",
+                "order": 7,
+                "parent_id": "2c2650aa-bc7b-11e2-a70b-00163e011797",
+                "type": "singlechoice",
+                "body": "I作为主语应该用",
+                "choices": [
+                    {
+                        "id": "d46e9fdb-50fd-4263-bb8a-573a9187b5ce",
+                        "order": 0,
+                        "body": "动词原形",
+                        "is_correct": false
+                    },
+                    {
+                        "id": "8a57fe47-7efb-4e7f-8171-79aca23b9729",
+                        "order": 1,
+                        "body": "动词单数第三人称形式",
+                        "is_correct": false
+                    }
+                ]
+            },
+            {
+                "id": "0ff9fbcc-2fd5-47e2-abf1-141e6f3f2ef7",
+                "order": 8,
+                "parent_id": "2c2650aa-bc7b-11e2-a70b-00163e011797",
+                "type": "singlechoice",
+                "body": "马上做完了，加油！Mr. Green and Mrs. Write作为主语应该用",
+                "choices": [
+                    {
+                        "id": "59b4a633-56a4-4a25-94d5-f6eb41827523",
+                        "order": 0,
+                        "body": "动词原形",
+                        "is_correct": false
+                    },
+                    {
+                        "id": "e9053c48-e67b-4e52-a628-5bdad8620ab3",
+                        "order": 1,
+                        "body": "动词单数第三人称形式",
+                        "is_correct": false
+                    }
+                ]
+            },
+            {
+                "id": "867d201d-6cfc-4dc9-9924-4f02d5f8a7fe",
+                "order": 9,
+                "parent_id": "2c2650aa-bc7b-11e2-a70b-00163e011797",
+                "type": "singlechoice",
+                "body": "She作为主语应该用",
+                "choices": [
+                    {
+                        "id": "90dbc2ac-23d8-41e9-9e01-ac22393aaf7b",
+                        "order": 0,
+                        "body": "动词原形",
+                        "is_correct": false
+                    },
+                    {
+                        "id": "82a2ffa7-0fba-453f-abb4-3df8882f852b",
+                        "order": 1,
+                        "body": "动词单数第三人称形式",
+                        "is_correct": false
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "9fec3288-d018-11e2-9a1e-00163e011797",
+        "order": 19,
+        "parent_id": "05be6bf8-bc78-11e2-9d5a-00163e011797",
+        "title": "动词单数第三人称使用新练习 测试",
+        "type": "quiz",
+        "redoable": true,
+        "body": "",
+        "jump": ["to_activity_if_correctness:08680bd0-bc7c-11e2-a70b-00163e011797:\u003e\u003d7"],
+        "problems": [
+            {
+                "id": "200a248c-b9f9-4571-b015-878067e75af0",
+                "order": 0,
+                "parent_id": "9fec3288-d018-11e2-9a1e-00163e011797",
+                "type": "singlefilling",
+                "body": "测试时间又到了！请填括号中动词的适当形式：He ____ (play，play的意思是玩).",
+                "correct_answer": "plays"
+            },
+            {
+                "id": "0af51481-1ff6-47f6-8a4a-b9951e9953f8",
+                "order": 1,
+                "parent_id": "9fec3288-d018-11e2-9a1e-00163e011797",
+                "type": "singlefilling",
+                "body": "The boys ____ (play).",
+                "correct_answer": "play"
+            },
+            {
+                "id": "48d50e14-c5e1-4736-8bad-3e0e6ae606ca",
+                "order": 2,
+                "parent_id": "9fec3288-d018-11e2-9a1e-00163e011797",
+                "type": "singlefilling",
+                "body": "They ____ (play).",
+                "correct_answer": "play"
+            },
+            {
+                "id": "f806dd21-7928-40a8-995d-423ef3168282",
+                "order": 3,
+                "parent_id": "9fec3288-d018-11e2-9a1e-00163e011797",
+                "type": "singlefilling",
+                "body": "The boy ____ (play).",
+                "correct_answer": "plays"
+            },
+            {
+                "id": "7da461ae-494d-4294-a619-a246053cbcaa",
+                "order": 4,
+                "parent_id": "9fec3288-d018-11e2-9a1e-00163e011797",
+                "type": "singlefilling",
+                "body": "____ (do) it？ (注意大小写哦！加油！)",
+                "correct_answer": "Does"
+            },
+            {
+                "id": "4c1cfe85-4915-4b38-bf2c-6be76d8def37",
+                "order": 5,
+                "parent_id": "9fec3288-d018-11e2-9a1e-00163e011797",
+                "type": "singlefilling",
+                "body": "____ (do) Tom and Jerry?",
+                "correct_answer": "Do"
+            },
+            {
+                "id": "993cada1-c623-4a9f-8f76-d39c397d5bfd",
+                "order": 6,
+                "parent_id": "9fec3288-d018-11e2-9a1e-00163e011797",
+                "type": "singlefilling",
+                "body": "____ (do) Xiaoming? (最后一道测试题了，全对就过关了哦！)",
+                "correct_answer": "Does"
+            }
+        ]
+    },
+    {
+        "id": "799f0712-d019-11e2-ac75-00163e011797",
+        "order": 20,
+        "parent_id": "05be6bf8-bc78-11e2-9d5a-00163e011797",
+        "title": "动词单数第三人称使用新练习 讲解（文档）",
+        "type": "lecture",
+        "redoable": true,
+        "body": "\u003cxpdf src\u003d\"动词-动词的第三人称单数变化(new)_210.pdf\"\u003e\u003c/xpdf\u003e"
+    },
+    {
+        "id": "00fb33ca-d01a-11e2-9742-00163e011797",
+        "order": 21,
+        "parent_id": "05be6bf8-bc78-11e2-9d5a-00163e011797",
+        "title": "动词单数第三人称使用新练习 讲解（视频）",
+        "type": "lecture",
+        "redoable": true,
+        "body": "\u003cxvideo src\u003d\"动词单数第三人称-6._使用总结.mp4\"\u003e\u003c/xvideo\u003e"
+    },
+    {
+        "id": "a2f49242-d01b-11e2-ac75-00163e011797",
+        "order": 22,
+        "parent_id": "05be6bf8-bc78-11e2-9d5a-00163e011797",
+        "title": "小调查",
+        "type": "quiz",
+        "redoable": true,
+        "body": "",
+        "jump": ["to_activity_if_correctness:08680bd0-bc7c-11e2-a70b-00163e011797:\u003e\u003d0"],
+        "problems": [
+            {
+                "id": "65a2c75d-47e1-4615-956e-a878067e0e7c",
+                "order": 0,
+                "parent_id": "a2f49242-d01b-11e2-ac75-00163e011797",
+                "type": "singlechoice",
+                "body": "这道题目是关于你喜不喜欢刚才看到的讲解，告诉我们你的感觉就可以，没有“对错”，也不用管系统的对错提示 :)",
+                "choices": [
+                    {
+                        "id": "5420edf9-9fce-4325-a304-c6b217b9cb10",
+                        "order": 0,
+                        "body": "我看了文档(pdf)的题目讲解之后还是不太明白，看后面的视频对我弄明白刚才做错的题目挺有帮助的。",
+                        "is_correct": false
+                    },
+                    {
+                        "id": "2792ac64-8bf4-4e54-8035-bcee85ccb258",
+                        "order": 1,
+                        "body": "我看了文档(pdf)的题目讲解之后已经很明白了，再看后面的视频没什么帮助。",
+                        "is_correct": false
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "9f6a098a-bc7b-11e2-a70b-00163e011797",
+        "order": 23,
+        "parent_id": "05be6bf8-bc78-11e2-9d5a-00163e011797",
+        "title": "动词单数第三人称使用练习 测试",
+        "type": "quiz",
+        "redoable": true,
+        "body": "",
+        "jump": ["to_activity_if_correctness:08680bd0-bc7c-11e2-a70b-00163e011797:\u003e\u003d7"],
+        "problems": [
+            {
+                "id": "79baff48-6c03-4d17-bcd5-7f82a870fc61",
+                "order": 0,
+                "parent_id": "9f6a098a-bc7b-11e2-a70b-00163e011797",
+                "type": "singlefilling",
+                "body": "测试时间又到了！请填括号中动词的适当形式：He ____ (play，play的意思是玩).",
+                "correct_answer": "plays"
+            },
+            {
+                "id": "588361ed-8c70-4a1c-84e6-253785fa49dd",
+                "order": 1,
+                "parent_id": "9f6a098a-bc7b-11e2-a70b-00163e011797",
+                "type": "singlefilling",
+                "body": "The boys ____ (play).",
+                "correct_answer": "play"
+            },
+            {
+                "id": "9b4339c2-74ba-4211-b181-f6853f0c1d10",
+                "order": 2,
+                "parent_id": "9f6a098a-bc7b-11e2-a70b-00163e011797",
+                "type": "singlefilling",
+                "body": "They ____ (play).",
+                "correct_answer": "play"
+            },
+            {
+                "id": "c3456d29-2e5a-44d7-93d9-d87a061e032a",
+                "order": 3,
+                "parent_id": "9f6a098a-bc7b-11e2-a70b-00163e011797",
+                "type": "singlefilling",
+                "body": "The boy ____ (play).",
+                "correct_answer": "plays"
+            },
+            {
+                "id": "3de69176-04d4-4f20-9c95-18848229ef8e",
+                "order": 4,
+                "parent_id": "9f6a098a-bc7b-11e2-a70b-00163e011797",
+                "type": "singlefilling",
+                "body": "____ (do) it (注意大小写哦！加油！)",
+                "correct_answer": "Does"
+            },
+            {
+                "id": "448c6a57-eadd-4ebd-b3e7-b657fd759083",
+                "order": 5,
+                "parent_id": "9f6a098a-bc7b-11e2-a70b-00163e011797",
+                "type": "singlefilling",
+                "body": "____ (do) Tom and Jerry?",
+                "correct_answer": "Do"
+            },
+            {
+                "id": "f102b14b-72d7-4ee0-bb0f-be7b23aa253f",
+                "order": 6,
+                "parent_id": "9f6a098a-bc7b-11e2-a70b-00163e011797",
+                "type": "singlefilling",
+                "body": "最后一道测试题了，全对就过关了哦！____ (do) Xiaoming?",
+                "correct_answer": "Does"
+            }
+        ]
+    },
+    {
+        "id": "a2eae304-bc7b-11e2-a70b-00163e011797",
+        "order": 24,
+        "parent_id": "05be6bf8-bc78-11e2-9d5a-00163e011797",
+        "title": "动词单数第三人称使用练习 讲解",
+        "type": "lecture",
+        "redoable": true,
+        "body": "\u003cxvideo src\u003d\"动词单数第三人称-6._使用总结.mp4\"\u003e\u003c/xvideo\u003e"
+    },
+    {
+        "id": "ed9b8cc8-bc7b-11e2-a70b-00163e011797",
+        "order": 25,
+        "parent_id": "05be6bf8-bc78-11e2-9d5a-00163e011797",
+        "title": "动词单数第三人称使用练习 练习",
+        "type": "quiz",
+        "show_answer": true,
+        "show_summary": true,
+        "redoable": true,
+        "body": "",
+        "problems": [
+            {
+                "id": "15664d09-d395-46db-8c87-24433feb5e4f",
+                "order": 0,
+                "parent_id": "ed9b8cc8-bc7b-11e2-a70b-00163e011797",
+                "type": "singlefilling",
+                "body": "请填括号中动词的正确形式^^ You ____(play).",
+                "correct_answer": "play"
+            },
+            {
+                "id": "c73482df-4bbd-48d7-a7f9-88b57dfb9eb0",
+                "order": 1,
+                "parent_id": "ed9b8cc8-bc7b-11e2-a70b-00163e011797",
+                "type": "singlefilling",
+                "body": "The teachers ____(play).",
+                "correct_answer": "play"
+            },
+            {
+                "id": "87709330-9b2d-4cad-818e-cae5e2181bf2",
+                "order": 2,
+                "parent_id": "ed9b8cc8-bc7b-11e2-a70b-00163e011797",
+                "type": "singlefilling",
+                "body": "We ____(play).",
+                "correct_answer": "play"
+            },
+            {
+                "id": "be8837c7-0c07-4426-8a0f-e3074d73f16f",
+                "order": 3,
+                "parent_id": "ed9b8cc8-bc7b-11e2-a70b-00163e011797",
+                "type": "singlefilling",
+                "body": "Tom ____(play).",
+                "correct_answer": "plays"
+            },
+            {
+                "id": "2b3a8172-a87b-41df-8884-1a5bd05b42f3",
+                "order": 4,
+                "parent_id": "ed9b8cc8-bc7b-11e2-a70b-00163e011797",
+                "type": "singlefilling",
+                "body": "____ (do) he? (注意大小写哦！)",
+                "correct_answer": "Does"
+            },
+            {
+                "id": "22d667dd-6075-4ff5-af78-84a7ad00f334",
+                "order": 5,
+                "parent_id": "ed9b8cc8-bc7b-11e2-a70b-00163e011797",
+                "type": "singlefilling",
+                "body": "____ (do) fire (火, 不可数)?",
+                "correct_answer": "Does"
+            },
+            {
+                "id": "5f8ff0cf-079c-4add-bdee-82346a7466b0",
+                "order": 6,
+                "parent_id": "ed9b8cc8-bc7b-11e2-a70b-00163e011797",
+                "type": "singlefilling",
+                "body": "____ (do) they?",
+                "correct_answer": "Do"
+            },
+            {
+                "id": "d5176143-caba-4a26-8ffb-2573b12718c2",
+                "order": 7,
+                "parent_id": "ed9b8cc8-bc7b-11e2-a70b-00163e011797",
+                "type": "singlefilling",
+                "body": "____ (do) Mr. Green?",
+                "correct_answer": "Does"
+            },
+            {
+                "id": "52f700e6-7f91-4f12-af99-890daf840cbd",
+                "order": 8,
+                "parent_id": "ed9b8cc8-bc7b-11e2-a70b-00163e011797",
+                "type": "singlefilling",
+                "body": "____ (do) it? (马上做完了，加油！)",
+                "correct_answer": "Does"
+            },
+            {
+                "id": "515a6102-6b12-4f76-86e7-e3b4afdee72e",
+                "order": 9,
+                "parent_id": "ed9b8cc8-bc7b-11e2-a70b-00163e011797",
+                "type": "singlefilling",
+                "body": "____ (do) Mr. Green and the apple?",
+                "correct_answer": "Do"
+            }
+        ]
+    },
+    {
+        "id": "08680bd0-bc7c-11e2-a70b-00163e011797",
+        "order": 26,
+        "parent_id": "05be6bf8-bc78-11e2-9d5a-00163e011797",
+        "title": "动词单数第三人称复习 讲解",
+        "type": "lecture",
+        "redoable": true,
+        "body": "\u003cxvideo src\u003d\"动词单数第三人称-7._复习.mp4\"\u003e\u003c/xvideo\u003e"
+    },
+    {
+        "id": "753ce10e-bc7c-11e2-9f7b-00163e011797",
+        "order": 27,
+        "parent_id": "05be6bf8-bc78-11e2-9d5a-00163e011797",
+        "title": "动词单数第三人称复习 练习",
+        "type": "quiz",
+        "show_answer": true,
+        "show_summary": true,
+        "redoable": true,
+        "body": "",
+        "problems": [
+            {
+                "id": "4a2b7b37-f672-4c10-92cf-8f0640f93c64",
+                "order": 0,
+                "parent_id": "753ce10e-bc7c-11e2-9f7b-00163e011797",
+                "type": "singlefilling",
+                "body": "最后一个小练习了哦！请填括号中动词的适当形式：\r\nShe ___ (teach) me. 她教我。\r\n(动词teach的意思是教)\r\n",
+                "correct_answer": "teaches"
+            },
+            {
+                "id": "a6dbcc95-6bc6-417a-a4a3-96a3937160f8",
+                "order": 1,
+                "parent_id": "753ce10e-bc7c-11e2-9f7b-00163e011797",
+                "type": "singlefilling",
+                "body": "We ___ (eat) an apple (苹果). 我们吃一个苹果。\r\n(eat的意思是吃)\r\n",
+                "correct_answer": "eat"
+            },
+            {
+                "id": "003f16cf-c95e-4e99-833c-f895062a0d1b",
+                "order": 2,
+                "parent_id": "753ce10e-bc7c-11e2-9f7b-00163e011797",
+                "type": "singlefilling",
+                "body": "____ (do) Tom play the guitar (弹吉他)? Tom弹吉他吗？",
+                "correct_answer": "Does"
+            },
+            {
+                "id": "ba362ffc-ee2c-492e-a566-1ef056e4082c",
+                "order": 3,
+                "parent_id": "753ce10e-bc7c-11e2-9f7b-00163e011797",
+                "type": "singlefilling",
+                "body": "Water (水) ___ (flow). 水流动。\r\n(flow的意思是流动)\r\n",
+                "correct_answer": "flows"
+            },
+            {
+                "id": "eb28340a-e345-4f40-b64e-4f8cee6ca821",
+                "order": 4,
+                "parent_id": "753ce10e-bc7c-11e2-9f7b-00163e011797",
+                "type": "singlefilling",
+                "body": "It ___ (fly) very high (高). 它飞得很高。\r\n(fly的意思是飞)\r\n",
+                "correct_answer": "flies"
+            }
+        ]
+    },
+    {
+        "id": "42998d3c-bd0e-11e2-9998-00163e011797",
+        "order": 29,
+        "parent_id": "05be6bf8-bc78-11e2-9d5a-00163e011797",
+        "title": "本课奖励 - 猫和老鼠",
+        "type": "lecture",
+        "redoable": true,
+        "body": "\u003cxvideo src\u003d\"再缩小版.mp4\"\u003e\u003c/xvideo\u003e"
+    },
+    {
+        "id": "978f5502-bd08-11e2-9998-00163e011797",
+        "order": 31,
+        "parent_id": "05be6bf8-bc78-11e2-9d5a-00163e011797",
+        "title": "动词单数第三人称（课前小测试） 测试",
+        "type": "quiz",
+        "show_summary": true,
+        "redoable": true,
+        "body": "",
+        "jump": ["to_activity_if_correctness:590c4592-bc7c-11e2-9f7b-00163e011797:\u003e\u003d3"],
+        "problems": [
+            {
+                "id": "107ce4d5-bfa5-48d9-9d96-52a4bc791472",
+                "order": 0,
+                "parent_id": "978f5502-bd08-11e2-9998-00163e011797",
+                "type": "singlefilling",
+                "body": "(非常好！那我们再做几道测试题，没问题就通过这一关咯！)                      \r\n____ (do) Tom play the guitar (弹吉他)? Tom弹吉他吗？(注意大小写哦！)",
+                "correct_answer": "Does"
+            },
+            {
+                "id": "6417e6de-bc40-4441-88f5-b5b14f526d56",
+                "order": 1,
+                "parent_id": "978f5502-bd08-11e2-9998-00163e011797",
+                "type": "singlefilling",
+                "body": "Water (水) ___ (flow). 水流动。 (flow的意思是流动)",
+                "correct_answer": "flows"
+            },
+            {
+                "id": "11156845-53b0-4d3a-a550-c0cd07b694d6",
+                "order": 2,
+                "parent_id": "978f5502-bd08-11e2-9998-00163e011797",
+                "type": "singlefilling",
+                "body": "(最后一道了，加油！)  It ___ (fly) very high (高). 它飞得很高。 (fly的意思是飞)",
+                "correct_answer": "flies"
+            }
+        ]
+    }
+]}

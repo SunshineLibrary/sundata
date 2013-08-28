@@ -1,0 +1,483 @@
+{"id": "认识负数（教学）", "ts": 1377602326556, "title": "认识负数", "summary": "来看看负数是什么以及如何使用负数吧！", "pass_score": "\u003e1", "star1": 30, "star2": 60, "star3": 100, "keywords": ["极简", "草稿"], "objectives": ["学会如何判断负数", "理解负数的涵义和用法"], "intended_audience": ["全教材初一年级"], "level": "easy", "activities": [
+    {
+        "id": "初始判断",
+        "order": 0,
+        "parent_id": "认识负数（教学）",
+        "title": "测试评价",
+        "type": "quiz",
+        "show_answer": false,
+        "show_summary": false,
+        "redoable": false,
+        "level": "easy",
+        "jump": ["jump_to_activity_if_correctness:lesson终测:\u003d100%"],
+        "problems": [
+            {
+                "id": "793cf181-12f0-4a4a-9401-73a8c4a1fe36",
+                "order": 0,
+                "parent_id": "初始判断",
+                "title": "一个单选测试的名字",
+                "type": "singlechoice",
+                "body": "第一次学习请选择--开始学习，已学过要进行测试请选择--最终测试",
+                "choices": [
+                    {
+                        "id": "40c9dab4-aea0-4c21-9f64-c08260ecf37c",
+                        "order": 0,
+                        "body": "开始学习",
+                        "is_correct": false
+                    },
+                    {
+                        "id": "e4e3737c-d459-4ddd-8215-74a4e82fba0c",
+                        "order": 1,
+                        "body": "最终测试",
+                        "is_correct": true
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "视频1",
+        "order": 1,
+        "parent_id": "认识负数（教学）",
+        "title": "认识负数01",
+        "type": "lecture",
+        "redoable": true,
+        "body": "\u003cxvideo src\u003d\u00271认识负数01.mp4\u0027\u003e\u003c/xvideo\u003e",
+        "level": "easy"
+    },
+    {
+        "id": "练习1",
+        "order": 2,
+        "parent_id": "认识负数（教学）",
+        "title": "认识负数",
+        "type": "quiz",
+        "show_answer": true,
+        "show_summary": true,
+        "redoable": true,
+        "level": "easy",
+        "pool_count": 1,
+        "jump": ["to_activity_if_correctness:视频1:\u003c50%"],
+        "problems": [
+            {
+                "id": "3b9c4e0c-9369-44cb-af25-2e215a97fe6a",
+                "order": 0,
+                "parent_id": "练习1",
+                "title": "认识负数练习1",
+                "type": "singlechoice",
+                "body": "负数的特点是？",
+                "choices": [
+                    {
+                        "id": "56d3e587-0531-4d73-8390-f8fc84a43277",
+                        "order": 0,
+                        "body": "小于`0`",
+                        "is_correct": true
+                    },
+                    {
+                        "id": "576fd992-b1b6-4b41-af89-6cd13d0d3baa",
+                        "order": 1,
+                        "body": "大于`0`",
+                        "is_correct": false
+                    }
+                ]
+            },
+            {
+                "id": "7df74717-a98e-4ce8-9af5-531a5f6067fa",
+                "order": 1,
+                "parent_id": "练习1",
+                "title": "2 单选题",
+                "type": "singlechoice",
+                "body": "选出以下数字中的负数 `99, -2, 0 , -3/2, -0.01, 3/4`",
+                "choices": [
+                    {
+                        "id": "b0475b62-74aa-4d91-bd5b-ea67525e41e5",
+                        "order": 0,
+                        "body": "`-2, -3/2, -0.001`",
+                        "is_correct": true
+                    },
+                    {
+                        "id": "5c666e8b-fd02-4a4a-84f0-e9c28daa6790",
+                        "order": 1,
+                        "body": "`-2, 0, -3/2`",
+                        "is_correct": false
+                    },
+                    {
+                        "id": "3f374605-0ce2-4b47-9224-4065575e2489",
+                        "order": 2,
+                        "body": "`-2, -0.01,99`",
+                        "is_correct": false
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "视频2",
+        "order": 3,
+        "parent_id": "认识负数（教学）",
+        "title": "理解负数 1",
+        "type": "lecture",
+        "redoable": true,
+        "body": "\u003cxvideo src\u003d\u00272理解负数01.mp4\u0027\u003e\u003c/xvideo\u003e",
+        "level": "easy"
+    },
+    {
+        "id": "练习2",
+        "order": 4,
+        "parent_id": "认识负数（教学）",
+        "title": "理解负数1",
+        "type": "quiz",
+        "show_answer": true,
+        "show_summary": true,
+        "redoable": true,
+        "level": "easy",
+        "jump": ["jump_to_activity_if_correctness:2.视频2:\u003c70%"],
+        "problems": [
+            {
+                "id": "ebcbcd25-717c-4d09-bf3b-e509f5de8a4e",
+                "order": 0,
+                "parent_id": "练习2",
+                "title": "1 单选题",
+                "type": "singlechoice",
+                "body": "如果有`5`块钱可以表示为`5`，那么欠了别人`5`块钱可以表示为？",
+                "choices": [
+                    {
+                        "id": "23226a78-149f-4a07-9a94-75f22564c75a",
+                        "order": 0,
+                        "body": "`-5`",
+                        "is_correct": true
+                    },
+                    {
+                        "id": "9290b9fb-49cf-4c0f-b35d-79e1df169140",
+                        "order": 1,
+                        "body": "`5`",
+                        "is_correct": false
+                    }
+                ]
+            },
+            {
+                "id": "bcb4f20a-359b-4770-96f2-ce89a676477c",
+                "order": 1,
+                "parent_id": "练习2",
+                "title": "2 单选题",
+                "type": "singlechoice",
+                "body": "欠了别人`99`块钱可以表示为？",
+                "choices": [
+                    {
+                        "id": "b8bbd2f7-ed15-430c-b237-1203e970e950",
+                        "order": 0,
+                        "body": "`-99`",
+                        "is_correct": true
+                    },
+                    {
+                        "id": "aba27b9b-60e4-4488-a8fe-beb2e14d3860",
+                        "order": 1,
+                        "body": "`99`",
+                        "is_correct": false
+                    }
+                ]
+            },
+            {
+                "id": "f92ff36d-0ed4-4513-b92a-a05c1680588c",
+                "order": 2,
+                "parent_id": "练习2",
+                "title": "2 单选题",
+                "type": "singlechoice",
+                "body": "如果你正欠着别人`10`块钱（记做`-10`），这时你又从别人那里借了`5`块钱，这个数学运算应该表示为？",
+                "choices": [
+                    {
+                        "id": "b0307060-fe11-4653-85bb-7fd730961087",
+                        "order": 0,
+                        "body": "`-10-5`",
+                        "is_correct": true
+                    },
+                    {
+                        "id": "cec9c824-9126-4272-b6d7-5e2ec968e2c5",
+                        "order": 1,
+                        "body": "`10-5`",
+                        "is_correct": false
+                    },
+                    {
+                        "id": "95f5dc40-6a8b-462a-a81b-3f63a71b33a2",
+                        "order": 2,
+                        "body": "`-10+5`",
+                        "is_correct": false
+                    }
+                ]
+            },
+            {
+                "id": "f15d94b2-54cc-4223-a5a0-58807fcdcb6e",
+                "order": 3,
+                "parent_id": "练习2",
+                "title": "2 单选题",
+                "type": "singlechoice",
+                "body": "如果你正欠着别人`1000`块钱，这时你又从别人那里借了`1000`块钱，这个数学运算应该表示为？",
+                "choices": [
+                    {
+                        "id": "44014637-2fc4-417a-a3c4-28225c3a45cd",
+                        "order": 0,
+                        "body": "`-1000-1000`",
+                        "is_correct": true
+                    },
+                    {
+                        "id": "aeab5983-00de-43d8-936c-f98198295be9",
+                        "order": 1,
+                        "body": "`-1000+1000`",
+                        "is_correct": false
+                    },
+                    {
+                        "id": "d3b7b2a5-58b9-49da-8344-5772465dd107",
+                        "order": 2,
+                        "body": "`1000+1000`",
+                        "is_correct": false
+                    }
+                ]
+            },
+            {
+                "id": "1ea9dcc5-7296-4a17-a8aa-59dd634d0c34",
+                "order": 4,
+                "parent_id": "练习2",
+                "title": "2 单选题",
+                "type": "singlechoice",
+                "body": "如果你正欠着别人`50`块钱，这时你又从别人那里借了`50`块钱，这时你的钱应该表示为？",
+                "choices": [
+                    {
+                        "id": "27658498-8b12-4249-beb9-dce46122e40f",
+                        "order": 0,
+                        "body": "`-50-50\u003d-100`",
+                        "is_correct": true
+                    },
+                    {
+                        "id": "00c6fbd6-31c2-41ce-8af9-4ae6a837565c",
+                        "order": 1,
+                        "body": "`-50-50\u003d0 `",
+                        "is_correct": false
+                    },
+                    {
+                        "id": "ccc4d10b-6a6d-4ec7-8dfe-1b123b05affe",
+                        "order": 2,
+                        "body": "`-50+50\u003d0`",
+                        "is_correct": false
+                    }
+                ]
+            },
+            {
+                "id": "bf336248-d74f-4d60-94ea-1a654de5fce6",
+                "order": 5,
+                "parent_id": "练习2",
+                "title": "2 单选题",
+                "type": "singlechoice",
+                "body": "`-10-20\u003d`？ （提示：把它想象成钱的例子）",
+                "choices": [
+                    {
+                        "id": "db2d37b8-560d-435d-ab51-aec998bbac78",
+                        "order": 0,
+                        "body": "`-30`",
+                        "is_correct": true
+                    },
+                    {
+                        "id": "c0f08bdb-a3a7-458e-b92b-4659ab04a210",
+                        "order": 1,
+                        "body": "`-20`",
+                        "is_correct": false
+                    },
+                    {
+                        "id": "4587baa3-6f34-47b5-b5f1-ce2488d15ac6",
+                        "order": 2,
+                        "body": "`-10`",
+                        "is_correct": false
+                    },
+                    {
+                        "id": "26742560-ce50-4115-8894-318624e33881",
+                        "order": 3,
+                        "body": "`10`",
+                        "is_correct": false
+                    }
+                ]
+            },
+            {
+                "id": "0f29c6d3-f19c-4d62-ac2f-8471e1a26a35",
+                "order": 6,
+                "parent_id": "练习2",
+                "title": "2 单选题",
+                "type": "singlechoice",
+                "body": "`-1-1\u003d`？ （提示：把它想象成钱的例子）",
+                "choices": [
+                    {
+                        "id": "4660741b-de61-45b9-b1ef-b42b0b1abf64",
+                        "order": 0,
+                        "body": "`-2`",
+                        "is_correct": true
+                    },
+                    {
+                        "id": "314d339c-80a6-422a-bf81-319f4d21d056",
+                        "order": 1,
+                        "body": "`-1`",
+                        "is_correct": false
+                    },
+                    {
+                        "id": "8e8e2256-aed0-48ef-b3a3-d78e038e8112",
+                        "order": 2,
+                        "body": "`0`",
+                        "is_correct": false
+                    },
+                    {
+                        "id": "01908fdb-6a07-43f7-9ce5-1e2222eb6bde",
+                        "order": 3,
+                        "body": "`1`",
+                        "is_correct": false
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "lesson终测",
+        "order": 5,
+        "parent_id": "认识负数（教学）",
+        "title": "终测试的名字",
+        "type": "quiz",
+        "redoable": true,
+        "level": "normal",
+        "jump": ["to_activity_if_correctness:跳转判断:\u003c70"],
+        "problems": [
+            {
+                "id": "622d2fdf-09e5-413b-9cf6-f339642fd1d1",
+                "order": 0,
+                "parent_id": "lesson终测",
+                "title": "1单选题",
+                "type": "singlechoice",
+                "body": "小明欠了小刚`10`元钱，这时他又向小刚借了`5`元钱，则小明现在的钱如何表示？",
+                "choices": [
+                    {
+                        "id": "b5650fbe-25ef-487d-92ad-819b6f452973",
+                        "order": 0,
+                        "body": "`-10-5\u003d-15`",
+                        "is_correct": true
+                    },
+                    {
+                        "id": "4f13304a-9c1f-42f2-863d-15fcb47d39ad",
+                        "order": 1,
+                        "body": "`-10+5\u003d-5`",
+                        "is_correct": false
+                    },
+                    {
+                        "id": "ead50b36-3db4-41cb-8c83-9dfe426b944a",
+                        "order": 2,
+                        "body": "`10+5\u003d15`",
+                        "is_correct": false
+                    },
+                    {
+                        "id": "fc8326ae-e059-4360-9490-fde4577301d5",
+                        "order": 3,
+                        "body": "`-10-5\u003d-5`",
+                        "is_correct": false
+                    }
+                ]
+            },
+            {
+                "id": "96aa1881-c9aa-4cff-8946-4dd47b6232bf",
+                "order": 1,
+                "parent_id": "lesson终测",
+                "title": "2单选题",
+                "type": "singlechoice",
+                "body": "小明欠了小刚`10`元钱，这时他还给了小刚`5`元钱，则小明现在的钱如何表示？",
+                "choices": [
+                    {
+                        "id": "a704705c-ea56-4a0c-b984-e9ef138c6619",
+                        "order": 0,
+                        "body": "`-10+5\u003d-5`",
+                        "is_correct": true
+                    },
+                    {
+                        "id": "ebb76deb-79c7-40c5-9021-8f7950984bb5",
+                        "order": 1,
+                        "body": "`-10+5\u003d-15`",
+                        "is_correct": false
+                    },
+                    {
+                        "id": "99799e22-98a8-4fab-98c8-ed67fe817ac2",
+                        "order": 2,
+                        "body": "`-10-5\u003d-15`",
+                        "is_correct": false
+                    },
+                    {
+                        "id": "d1e51bfb-8bd6-41c3-ae24-6a217ac65677",
+                        "order": 3,
+                        "body": "`-10-5\u003d-5`",
+                        "is_correct": false
+                    }
+                ]
+            },
+            {
+                "id": "a1931af6-dd7e-4b16-a2b7-cae0ea50464a",
+                "order": 2,
+                "parent_id": "lesson终测",
+                "title": "3单选题",
+                "type": "singlechoice",
+                "body": "小明现在有`6`元钱，这时他从同学那里借了一些钱然后买了本10元钱的书，则小明现在的钱如何表示？",
+                "choices": [
+                    {
+                        "id": "6de8b319-da31-456c-9c55-60982cdbe61b",
+                        "order": 0,
+                        "body": "`6-10\u003d-4`",
+                        "is_correct": true
+                    },
+                    {
+                        "id": "f669a269-e79d-49e1-a4f1-7f44e668ddcf",
+                        "order": 1,
+                        "body": "`6-10\u003d-16`",
+                        "is_correct": false
+                    },
+                    {
+                        "id": "c7a729f2-3b7e-482a-8812-d109f992fe26",
+                        "order": 2,
+                        "body": "`6-10\u003d4`",
+                        "is_correct": false
+                    },
+                    {
+                        "id": "45c9cd3b-3293-4a04-afa3-76192984f055",
+                        "order": 3,
+                        "body": "`-6-10\u003d-4`",
+                        "is_correct": false
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "最终判断",
+        "order": 6,
+        "parent_id": "认识负数（教学）",
+        "title": "测试评价",
+        "type": "quiz",
+        "show_answer": false,
+        "show_summary": false,
+        "redoable": false,
+        "level": "easy",
+        "jump": ["jump_to_activity_if_correctness:视频1:\u003d100%"],
+        "problems": [
+            {
+                "id": "791a1289-21e2-40aa-bd45-4d63f5bbaf1e",
+                "order": 0,
+                "parent_id": "最终判断",
+                "title": "一个单选测试的名字",
+                "type": "singlechoice",
+                "body": "哎呦！你正确率太低了，我们建议你重新学",
+                "choices": [
+                    {
+                        "id": "1d7f2626-be59-42c4-8cc8-621582d15537",
+                        "order": 0,
+                        "body": "我重新学",
+                        "is_correct": true
+                    },
+                    {
+                        "id": "a4c02f20-61a7-4515-a560-be11fc21403a",
+                        "order": 1,
+                        "body": "我放弃了",
+                        "is_correct": false
+                    }
+                ]
+            }
+        ]
+    }
+]}
