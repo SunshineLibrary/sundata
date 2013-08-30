@@ -11,7 +11,7 @@ import play.modules.morphia.Model;
  * image：“img/name.jpg”      //一个可以直接读取的相对file_path
  * audio： “word/name.mp3”     //发音文件
  * phonetics：“neim”      //<string> 音标
- * group：1      //<int> 在单元中的分组
+ * group_：1      //<int> 在单元中的分组
  * proficiency_step：10      //<int> 每次做对增长的基础熟练度
  * example：“What's your name?” //<string>例句
  * example_meaning：“你叫什么名字?” //<string>例句翻译
@@ -50,11 +50,13 @@ public class Word extends Model {
     /**
      * <int> 单元内的分组
      */
-    public int group;
+    public int group_;
     /**
      * <int> 每次做对增长的基础熟练度
      */
     public int proficiency_step;
+    public String proficiency = "";
+    public String continuous = "";
     /**
      * <string> 例句
      */

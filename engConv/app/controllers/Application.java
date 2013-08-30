@@ -23,7 +23,7 @@ public class Application extends Controller {
     public static void deleteAll() {
         //MorphiaFixtures.deleteDatabase();
         Problem.deleteAll();
-        Phonetics.deleteAll();
+//        Phonetics.deleteAll();
 //        Word.deleteAll();
         renderText("complete delete all");
     }
@@ -111,7 +111,7 @@ public class Application extends Controller {
             word.image = data[3];
             word.audio = data[4];
             word.phonetics = data[5];
-            word.group = Integer.valueOf(data[6]);
+            word.group_ = Integer.valueOf(data[6]);
             word.proficiency_step = Integer.valueOf(data[7]);
             word.example = data[8];
             word.example_meaning = data[9];
