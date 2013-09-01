@@ -55,8 +55,8 @@ public class Word extends Model {
      * <int> 每次做对增长的基础熟练度
      */
     public int proficiency_step;
-    public String proficiency = "";
-    public String continuous = "";
+    public String proficiency_ = "";
+    public String continuous_ = "";
     /**
      * <string> 例句
      */

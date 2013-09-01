@@ -78,7 +78,7 @@ public class Problem extends Model {
     public String answer;
     public String audio;
     public String image;
-    public String profieciency = "";
+    public String profieciency_ = "";
     public String wrong_select1;
     public String wrong_select2;
     public String wrong_select3;

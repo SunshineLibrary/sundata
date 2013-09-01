@@ -22,10 +22,21 @@ public class Application extends Controller {
 
     public static void deleteAll() {
         //MorphiaFixtures.deleteDatabase();
+    }
+
+    public static void deleteAllProblems() {
         Problem.deleteAll();
-//        Phonetics.deleteAll();
-//        Word.deleteAll();
-        renderText("complete delete all");
+        renderText("complete deleteAllProblems");
+    }
+
+    public static void deleteAllPhonetics() {
+        Phonetics.deleteAll();
+        renderText("complete deleteAllPhonetics");
+    }
+
+    public static void deleteAllWords() {
+        Word.deleteAll();
+        renderText("complete deleteAllWords");
     }
 
     public static void index(File csv) throws IOException {
